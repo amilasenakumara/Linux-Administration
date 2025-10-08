@@ -223,8 +223,6 @@ Each distribution focuses on specific goals or audiences.
 
 ---
 
-### 📁 File Information
-**Suggested File Name:** `linux-introduction-summary.md`  
-**Recommended Tags:** `#Linux #OpenSource #OperatingSystem #DevOps #Education`
+** `#Linux #OpenSource #OperatingSystem #DevOps #Education`
 
 ---
