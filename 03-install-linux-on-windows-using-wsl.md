@@ -239,8 +239,7 @@ wsl -l
 
 ---
 
-## 🗂️ Suggested File Name
-**install-linux-on-windows-using-wsl.md**
+
 
 ---
 
