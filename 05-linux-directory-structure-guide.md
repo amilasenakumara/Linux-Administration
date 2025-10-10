@@ -377,6 +377,7 @@ These directories collectively define the **Linux Filesystem Hierarchy Standard 
 ---
 # 🌳 Linux File System Structure (Tree View)
 
+```text
 /
 ├── bin/               # Essential binaries
 │   ├── bash
