@@ -1,4 +1,4 @@
-# 🐧 Basic Linux Commands: A Beginner's Guide
+# 🐧 Basic Linux Commands: Lets Get the ball rolling
 
 ## Introduction
 In this lesson, you'll learn some basic yet essential Linux commands.  
