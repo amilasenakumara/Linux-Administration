@@ -375,6 +375,80 @@ Example: `/media/usb`.
 These directories collectively define the **Linux Filesystem Hierarchy Standard (FHS)**, ensuring that applications and administrators can locate essential files consistently across distributions.
 
 ---
+# 🌳 Linux File System Structure (Tree View)
+
+/
+├── bin/               # Essential binaries
+│   ├── bash
+│   ├── ls
+│   └── cp
+├── boot/              # Boot loader files
+│   ├── vmlinuz
+│   ├── initrd.img
+│   └── grub/
+├── dev/               # Device files
+│   ├── sda
+│   ├── tty
+│   └── null
+├── etc/               # Configuration files
+│   ├── fstab
+│   ├── hostname
+│   ├── hosts
+│   └── network/
+├── home/              # User directories
+│   ├── alice/
+│   │   ├── Documents/
+│   │   ├── Downloads/
+│   │   └── Pictures/
+│   └── bob/
+├── lib/               # Shared libraries
+│   ├── libc.so.6
+│   └── modules/
+├── lib64/             # 64-bit libraries
+├── media/             # Mount points for removable media
+│   └── usb/
+├── mnt/               # Temporary mount points
+├── opt/               # Optional/third-party software
+│   ├── google/
+│   │   ├── chrome/
+│   │   └── earth/
+│   └── myapp/
+├── proc/              # Virtual filesystem for processes
+│   ├── cpuinfo
+│   └── meminfo
+├── root/              # Root user home directory
+├── run/               # Runtime variable data
+│   ├── lock/
+│   └── pid/
+├── sbin/              # System binaries for admin
+│   ├── fsck
+│   ├── reboot
+│   └── ifconfig
+├── srv/               # Service data (web, FTP)
+│   ├── www/
+│   └── ftp/
+├── sys/               # Kernel & device info (sysfs)
+├── tmp/               # Temporary files
+├── usr/               # User programs and data
+│   ├── bin/
+│   │   ├── nano
+│   │   └── gcc
+│   ├── lib/
+│   ├── local/
+│   │   ├── bin/
+│   │   └── myapp/
+│   └── share/
+├── var/               # Variable data (logs, spool, cache)
+│   ├── log/
+│   │   └── syslog
+│   ├── spool/
+│   └── tmp/
+└── lost+found/        # Recovered files from fsck
+
+
+
+
+---
 
 ## ✅ Final Notes
 Understanding the Linux directory structure is **fundamental** for anyone using, administering, or developing on Linux.  
