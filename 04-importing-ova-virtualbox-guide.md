@@ -176,9 +176,9 @@ Now you have a **fully functional AlmaLinux system** ready for practice and lear
 
 ---
 
-## 🗂️ Suggested Metadata for GitHub
+
 **Title:** Importing OVA into VirtualBox – Linux Training Guide  
-**Author:** Linux Training Academy  
+**Author:** Amila Senakumara 
 **Category:** Virtualization  
 **Tags:** OVA, VirtualBox, Linux, AlmaLinux, Virtual Machine  
 
