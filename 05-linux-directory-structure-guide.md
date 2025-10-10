@@ -447,7 +447,7 @@ These directories collectively define the **Linux Filesystem Hierarchy Standard 
 └── lost+found/        # Recovered files from fsck
 
 
-
+```
 
 ---
 
