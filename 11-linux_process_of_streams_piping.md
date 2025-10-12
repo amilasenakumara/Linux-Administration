@@ -93,19 +93,19 @@
 - **Pipe operator (`|`)**: send `stdout` of one process to `stdin` of another.
 - Example:
   ```bash
-  ls | cut
+  ls | cat
   ```
-  - `stdout` of `ls` → `stdin` of `cut`.
+  - `stdout` of `ls` → `stdin` of `cat`.
 - **STDERR is not piped**:
   ```bash
-  cat missing_file.txt | cut
+  cat missing_file.txt | cat
   ```
   - Error remains in terminal, not piped.
 - **Combining piping and file redirection**:
   ```bash
-  echo "Hello world" | cut > hello.txt
+  echo "Hello world" | cat > hello.txt
   ```
-  - `stdout` flows through `cut` → written to `hello.txt`.
+  - `stdout` flows through `cat` → written to `hello.txt`.
 
 ---
 
