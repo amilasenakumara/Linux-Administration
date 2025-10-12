@@ -164,5 +164,4 @@ cat file.txt | grep "error" | tee errors.txt
 
 ---
 
-**Suggested File Name:** `linux_data_streaming_and_piping.md`
 
