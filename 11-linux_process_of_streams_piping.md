@@ -66,12 +66,12 @@
 
 ## 04. Sending Data to STDIN and Redirecting STDOUT/STDERR ↔️
 
-- **Processes can accept input via `stdin`** (e.g., `cut` command).
+- **Processes can accept input via `stdin`** (e.g., `cat` command).
 - Example:
   ```bash
-  cut
+  cat
   ```
-  - Type `hello cut` → sent to `stdin` → output returned via `stdout`.
+  - Type `hello cat` → sent to `stdin` → output returned via `stdout`.
 - **Numeric IDs of streams**:
   - `0` → stdin
   - `1` → stdout
@@ -82,7 +82,7 @@
   ```
 - **Example with error file appending**:
   ```bash
-  cut absent_file.txt 2>> stderr.txt
+  cat absent_file.txt 2>> stderr.txt
   ```
   - Error appended to existing `stderr.txt`.
 
@@ -124,7 +124,7 @@
    **A:** `>` overwrites a file; `>>` appends to a file.
 
 5. **Q:** How can you send `stdout` of one process to `stdin` of another?  
-   **A:** Using the pipe operator `|`, e.g., `ls | cut`.
+   **A:** Using the pipe operator `|`, e.g., `ls | cat`.
 
 ---
 
